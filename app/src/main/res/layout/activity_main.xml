@@ -64,6 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
+            android:onClick="copyPrimaryColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/copy" />
@@ -97,6 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
+            android:onClick="copySecondaryColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/copyPrimary"
             app:srcCompat="@drawable/copy" />
@@ -141,7 +143,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
-            android:onClick="copyPrimary"
+            android:onClick="copyTertiaryColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/copySecondary"
             app:srcCompat="@drawable/copy" />
